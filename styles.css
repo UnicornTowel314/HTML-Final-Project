@@ -1,0 +1,66 @@
+body {
+    font-family: Verdana, sans-serif;
+    padding: 15px;
+}
+
+#header-img {
+    width: 125px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+ul {
+    list-style-type: none;
+    text-indent: -20px;
+}
+
+h2 {
+    background-color: #ba110c;
+    color: #eaddcd;
+    border: solid 5px #ba110c;
+}
+
+#brew, #stew, #candy {
+    width: 250px;
+}
+
+label {
+    display: block;
+}
+
+input[type="number"] {
+    width: 5ch;
+}
+
+.addon {
+    text-indent: 15px;
+}
+
+textarea {
+    margin-top: -5px;
+}
+
+#cauldron-stew-order, #pixie-crystals-order {
+    margin-top: 15px;
+    font-weight: 800;
+}
+
+#dragons-brew-order {
+    font-weight: 800;
+}
+
+#pixie-crystals-order {
+    margin-bottom: 15px;
+}
+
+p, footer {
+    font-size: 0.9rem;
+}
+
+#request {
+    font-size: 1rem;
+}
+
+footer{
+    margin-top: 15px;
+}

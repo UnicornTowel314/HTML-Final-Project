@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>The Crimson Kobold</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <img id="header-img" src="https://i.pinimg.com/736x/f7/d4/f3/f7d4f3cfadfb43c57bb96ab9ba0c2b0d.jpg" alt="red kobold token" />
+            <h1>The Crimson Kobold</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#order">Order Form</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2 id="menu">Menu</h2>
+                <article>
+                    <h3>Dragon's Brew</h3>
+                    <img id="brew" src="https://m.media-amazon.com/images/I/31SO3oIZbDL.jpg" alt="mason jar mug with a fruity drink inside" />
+                    <p>A bubbly drink made with blood orange, mango, and strawberries.</p>
+                    <p><em>$2.50</em></p>
+                </article>
+                <article>
+                    <h3>Cauldron Stew</h3>
+                    <img id="stew" src="https://thumbs.dreamstime.com/b/beef-stew-old-small-cauldron-white-background-73501286.jpg" alt="small black cauldron of stew" />
+                    <p>A hearty stew with onions, root vegetables, and your choice of meat.</p>
+                    <p><em>$10.50</em></p>
+                </article>
+                <article>
+                    <h3>Pixie Crystals</h3>
+                    <img id="candy" src="https://cdn.shopify.com/s/files/1/0250/7483/products/rock-candy-espeez-strawberry-candy-funhouse-canada_1200x1200_crop_center.jpg?v=1595874462" alt="red rock candy on a stick" />
+                    <p>Delightful strawberry rock candy.</p>
+                    <p><em>$1.25</em></p>
+                </article>
+            </section>
+            <section>
+                <h2 id="order">Place Your Order</h2>
+                <form>
+                    <label id="dragons-brew-order">Dragon's Brew <input type="number" min="0" placeholder="0" /></label>
+                    <label class="addon"><input type="checkbox" value="swirly-straw"/> Swirly Straw</label>
+                    <label class="addon"><input type="checkbox" value="fruit-garnish"/> Fruit Garnish</label>
+                    <label id="cauldron-stew-order">Cauldron Stew <input type="number" min="0" placeholder="0" /></label>
+                    <label class="addon"><input type="radio" value="beef" name="meat" checked /> Beef</label>
+                    <label class="addon"><input type="radio" value="pork" name="meat" /> Pork</label>
+                    <label class="addon"><input type="radio" value="lamb" name="meat" /> Lamb</label>
+                    <p id="request">Special Requests</p>
+                    <textarea rows="5" cols="30" placeholder="Make it spicy..."></textarea>
+                    <label id="pixie-crystals-order">Pixie Crystals <input type="number" min="0" placeholder="0" /></label>
+                    <input type="submit" value="Go To Checkout" />
+                </form>
+            </section>
+        </main>
+        <footer>Made with love by sarahmckee714</footer>
+    </body>
+</html>
